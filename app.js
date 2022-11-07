@@ -26,7 +26,7 @@ app.post('/create-thumbnail', async(req, res) => {
         res.send(buffer);
     });
 });
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
     res.send({
         msg: "Working"
     })
