@@ -10,7 +10,7 @@ puppeteer.launch({
         '--no-sandbox',
         '--disable-setuid-sandbox',
         '--disable-dev-shm-usage',
-        '--single-process'
+        '--use-gl=egl'
     ]
 }).then(browser2 => {
     browser = browser2
