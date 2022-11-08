@@ -9,8 +9,11 @@
         "start": "node app.js"
     },
     "engines": {
-        "npm": ">=5.0.0 <6.0.0",
+        "npm": ">=6.0.0 <7.0.0",
         "node": ">=16.0.0 <17.0.0"
+    },
+    "config": {
+        "unsafe-perm": true
     },
     "author": "",
     "license": "ISC",
